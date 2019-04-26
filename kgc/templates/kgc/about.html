@@ -1,0 +1,56 @@
+{% extends "kgc/base.html" %}
+{% block content %}
+{% load static %}
+        <!-- slider section -->
+  <section class="ministry connect-hero wide" id="profile-banner">
+        <div class="container">
+            <div class="row">
+                <div class="section-bg parallax" style="background-image: url('/static/kgc/img/b1.jpg'); background-position: center -8px;"></div>
+                <div class="page-title">	        
+                       <h1 class="tp-blog-title">About us</h1>          
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+     <!-- connect section -->
+     <section class="section section-search connect-hero wide about-c" id="connect-hero"> 
+      <div class="container">
+          <div class="row">
+          
+           <div class="col s12 m9 this-image img-containers">
+                
+              <h4 class="four-pastor">About Us</h4>
+             
+              <p class="about-paragraphs">The KGC is a diverse community church with over 150 members who originated from different denominations but found harmony and unity in our relationship with God and coming together as members of one community. Our vision is to provide an environment that enhances spiritual growth and maturity to all our members.
+                  The church was established in 2009 by members of Kenyan community with a Mission of building up and strengthening individual members, families and communities through preaching, teaching and practical application and sharing of the word of God. The current Pastor is Rev. Eunice Ndirangu who has been a member of the church for the last eight years and two years as a presiding minister.</p> 
+                  
+                  <p class="about-paragraphs">The church is run by Board of Governance and the current Chair of the Board  is Ms. Jane Njambi Mucheru.</p>
+                  
+                <div class="church-profile">
+                    <div class="pastor-img">
+                        <img class="responsive-img" src="{% static 'kgc/img/pastor.jpg' %}" alt="pastor" >
+                    
+                       
+                    </div>
+                    <p class="pa">Rev. Eunice Ndirangu</p>
+                    
+                    </div>
+                
+                  
+                 
+            </div>
+            <div class="col s12 m3">
+                <div class="about-side">
+                  <ul>
+                      <li class="active"><a href="{% url 'about' %}"><i class="fas fa-long-arrow-alt-right"></i> About us</a></li>
+                      <li><a href="{% url 'board' %}"><i class="fas fa-long-arrow-alt-right"></i> Our team</a></li>
+                      <li><a href="#pastor"><i class="fas fa-long-arrow-alt-right"></i> Pastor</a></li>
+                  </ul>
+                  </div>
+                </div>
+          </div>
+        </div>
+       </section>
+    
+{% endblock content %}

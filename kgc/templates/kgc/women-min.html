@@ -1,0 +1,35 @@
+{% extends "kgc/base.html" %}
+{% block content %}
+{% load static %}
+    <!-- slider section -->
+  <section class="ministry connect-hero wide" id="profile-banner">
+        <div class="container">
+            <div class="row">
+                <div class="section-bg parallax" style="background-image: url('/static/kgc/img/ch15.jpg'); background-position: center -8px;"></div>
+                <div class="page-title">	        
+                       <h1 class="tp-blog-title">KGC Women Ministry</h1>     
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us section -->
+    <section class="section white-text scrollspy" id="search" >
+        <div class="container">
+          <div class="row">
+              <div class="col s12 m7">
+                  <h4 class="four-font">KGC Women Ministry</h4>
+                  <p class="content-body">This is a group for diverse women with a common objective to support each other, fellowship and pray together. This group organizes and prepares snacks for all church members after every Sunday service. The current  Chair-lady is Ms.Margaret Gichini 
+                          Kindly write to the women ministry
+                          Att. Gichini at info@globalchurch.org</p>
+              </div>  
+              <div class="col s12 m4">
+                      <div class="card">
+                        <div class="card-image">
+                          <img src="{%  static 'kgc/img/w-1.jpg' %}" class="responsive-img school-img"/>
+                        </div>
+                  </div>
+              </div>       
+          </div>
+        </div>
+      </section>
+{% endblock content %}

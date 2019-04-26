@@ -1,0 +1,49 @@
+{% extends "kgc/base.html" %}
+{% block content %}
+{% load static %}
+<section class="ministry connect-hero wide" id="profile-banner">
+        <div class="container">
+            <div class="row">
+                <div class="section-bg parallax" style="background-image: url('/static/kgc/img/ch15.jpg'); background-position: center -8px;"></div>
+                <div class="page-title">	        
+                       <h1 class="tp-blog-title">Church School Ministry</h1>     
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us section -->
+    <section class="section white-text scrollspy" id="search" >
+        <div class="container">
+          <div class="row">
+              <div class="col s12 m12">
+              
+                  <h4 class="four-font">Children ministry</h4>
+                  <p class="content-body">The mission of this ministry is to lay a foundation of Jesus Christ at early age in young children in order to ensure continuity of the preaching of the gospel to the next generation. This group is divided into two:</p>
+                  <p class="content-body hours-p"><b><i class="fas fa-circle"></i> Junior Church School</b><br /><br />
+                      <span class="go-right"><i class="far fa-check-circle"></i> Comprises of ages 4-7yrs</span></p>
+  
+                  <p class="content-body hours-p"><b><i class="fas fa-circle"></i>Senior Church School</b><br /><br />
+                  <span class="go-right"><i class="far fa-check-circle"></i> Comprises of ages 8-13yrs</span></p>
+  
+                  <p class="content-body">The church school runs consecutively from 1pm to 2pm.&nbsp;
+                      For more information please contact Sis. Mary Muigai. You can email her Atte; Mary at info@globalchurch.org</p>
+              </div>
+              <div class="col s12 m6">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="{% static 'kgc/img/ch-1.jpg' %}" class="responsive-img school-img"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="{% static 'kgc/img/ch-2.jpg' %}" class="responsive-img school-img"/>
+                      </div>
+                    </div>
+                  </div>
+           
+          </div>
+        </div>
+      </section>  
+{% endblock content %}

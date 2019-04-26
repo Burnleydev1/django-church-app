@@ -1,0 +1,35 @@
+{% extends "kgc/base.html" %}
+{% block content %}
+{% load static %}
+     <!-- slider section -->
+  <section class="ministry connect-hero wide" id="profile-banner">
+        <div class="container">
+            <div class="row">
+                <div class="section-bg parallax" style="background-image: url('/static/kgc/img/ch15.jpg'); background-position: center -8px;"></div>
+                <div class="page-title">	        
+                       <h1 class="tp-blog-title">KGC Intercessory Ministry</h1>     
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us section -->
+    <section class="section white-text scrollspy" id="search" >
+        <div class="container">
+          <div class="row">
+              <div class="col s12 m7">
+                  <h4 class="four-font">Intercessory Ministry</h4>
+                  <p class="content-body">This group supports the church through prayer ministry. The mission of this ministry is to pray for the lost souls, the needy and the work of Christ.
+                      For more information contact assistant cordinator Veronicah Karuru at info@globalchurch.org
+                      </p>
+              </div>  
+              <div class="col s12 m4">
+                      <div class="card">
+                        <div class="card-image">
+                          <img src="{% static 'kgc/img/intercesory ministry.jpg' %}" class="responsive-img school-img"/>
+                        </div>
+                  </div>
+              </div>       
+          </div>
+        </div>
+      </section>    
+{% endblock content %}

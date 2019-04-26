@@ -1,0 +1,39 @@
+{% extends "kgc/base.html" %}
+{% block content %}
+{% load static %}
+     <!-- slider section -->
+  <section class="ministry connect-hero wide" id="profile-banner">
+        <div class="container">
+            <div class="row">
+                <div class="section-bg parallax" style="background-image: url('/static/kgc/img/ch15.jpg'); background-position: center -8px;"></div>
+                <div class="page-title">	        
+                       <h1 class="tp-blog-title">Sermons</h1>     
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us section -->
+    <section class="section white-text scrollspy" id="search" >
+        <div class="container">
+          <div class="row">
+              <div class="col s12 m7">
+                  <h4 class="four-font">Sermons</h4>
+                  <p class="content-body">The God we serve is the Alfa and Omega, omnipresent and omnipotent. He is the creator of the Heavens and Earth and created things that are visible and invisible by His own power. He is a powerful God and there is nothing impossible with Him. (Luke 1:37) 
+                   </p>
+                      <p class="content-body">  If a person is in Christ, is a new creature and he /she lives in divine presence of God. He/She adapts the character of Christ. </p>
+                      <p class="content-body"> The church believes all Scriptures are God inspired and are useful for teaching, rebuking, correcting and training in righteousness so that the servant of God may be thoroughly equip the members for every good work (2 Timothy 3:16)</p>
+                      <p class="content-body"> 
+                         The church believes in the practice of Baptism, Holy Communion and dedication of children as taught by our Lord Jesus Christ.
+                      </p>
+              </div>  
+              <div class="col s12 m5">
+                      <div class="card">
+                        <div class="card-image">
+                          <img src="{% static 'kgc/img/hb.jpg' %}" class="responsive-img school-img"/>
+                        </div>
+                  </div>
+              </div>       
+          </div>
+        </div>
+      </section>        
+{% endblock content %}

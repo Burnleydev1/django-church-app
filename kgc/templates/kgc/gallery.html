@@ -1,0 +1,79 @@
+{% extends "kgc/base.html" %}
+{% block content %}
+{% load static %}
+    <!-- slider section -->
+    <section class="slider">
+        <ul class="slides">
+        
+        <li>
+            <img src="{% static 'kgc/img/b1.jpg' %}" />
+            
+        </li>
+        <li>
+            <img src="{% static 'kgc/img/ch8.jpg' %}" />
+            
+            </li>
+        <li>
+            <img src="{% static 'kgc/img/ch9.jpg' %}" />
+            
+            </li>
+        </ul>
+    </section>
+    <section class="section section-gallery scrollspy" id="gallery">
+            <div class="container">
+              <h4 class="center">
+                <span class="teal-text">Photo Gallery</span>
+              </h4>
+              <div class="row">
+                <div class="col s12 m4">
+                  <img class="materialboxed responsive-img" height="100" src="{% static 'kgc/img/b1.jpg' %}" alt="">
+                </div>
+                <div class="col s12 m4">
+                  <img class="materialboxed responsive-img" src="{% static 'kgc/img/pr-1.jpg' %}" alt="">
+                </div>
+                <div class="col s12 m4">
+                  <img class="materialboxed responsive-img" src="{% static 'kgc/img/board.jpg' %}" alt="">
+                </div>
+              </div>
+        
+              <div class="row">
+                <div class="col s12 m4">
+                    <img class="materialboxed responsive-img" src="{% static 'kgc/img/ch-1.jpg' %}" alt="">
+                </div>
+                <div class="col s12 m4">
+                    <img class="materialboxed responsive-img" src="{% static 'kgc/img/ch-2.jpg' %}" alt=""> 
+                </div>
+                <div class="col s12 m4">
+                    <img class="materialboxed responsive-img" src="{% static 'kgc/img/ch8.jpg' %}" alt=""> 
+                </div>
+              </div>
+      
+              <div class="row">
+                  <div class="col s12 m4">
+                    <img class="materialboxed responsive-img" height="100" src="{% static 'kgc/img/ch6.jpg' %}" alt="">
+                  </div>
+                  <div class="col s12 m4">
+                    <img class="materialboxed responsive-img" src="{% static 'kgc/img/men-1.jpg' %}" alt="">
+                  </div>
+                  <div class="col s12 m4">
+                    <img class="materialboxed responsive-img" src="{% static 'kgc/img/ch11.jpg' %}" alt="">
+                  </div>
+                </div>
+      
+      
+      
+              <div class="row">
+                  <div class="col s12 m4">
+                    <img class="materialboxed responsive-img" height="100" src="{% static 'kgc/img/ch5.jpg' %}" alt="">
+                  </div>
+                  <div class="col s12 m4">
+                    <img class="materialboxed responsive-img" src="{% static 'kgc/img/ch9.jpg' %}" alt="">
+                  </div>
+                  <div class="col s12 m4">
+                    <img class="materialboxed responsive-img" src="{% static 'kgc/img/ch12.jpg' %}" alt="">
+                  </div>
+                </div>
+            </div>
+          </section>
+      
+{% endblock content %}

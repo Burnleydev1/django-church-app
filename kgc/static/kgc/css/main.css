@@ -1,0 +1,637 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+img.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height: 15rem;
+    overflow: hidden;
+    width: 25rem;
+}
+
+figcaption { 
+    display: block;
+  }
+.logo-color img{
+    width: 300px;
+    height: 62px;
+}
+
+.church-profile{
+    float: left;
+}
+.pa{
+    padding: .6rem;
+}
+
+.this-color{
+    background-color:#81c12d !important;
+}
+.mobile-style{
+    color: #2d2d2d !important;
+}
+.this-text{
+    color: #81c12d !important;
+}
+.brand-logo{
+    padding-left: 16px !important;
+    margin-left: 1rem;
+}
+.this-font{
+    font-size: 23px !important;
+}
+.caption {
+    background-color: #e0e0e0 !important;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+#profile-banner h2{
+    color: #81c12d;
+}
+.this-image img{
+    height: 25rem !important;
+    /* width: 22rem; */
+    /* float: left; */
+    padding: 1rem;
+}
+.this-icon{
+    font-size: 4rem;
+}
+h4 .service-text{
+    color: whitesmoke;
+}
+#welcome-hero{
+    padding: 1rem 0;
+    background: #326348 !important;
+    background-size: 138px;
+    color: #fff;
+    text-align: center
+}
+#welcome-hero p{
+    font-size: 1.3em;
+    line-height: 1.64;
+    margin: 0 0 1em;
+}
+.section > #welcome-hero{
+    max-width: 664px;
+}
+#worship-hero{
+    padding: 6em 0;
+}
+#worship-hero{
+    background-image: url('../img/ch14.jpg');
+    background-position: center 0.9px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.worship-hero-body{
+    padding: 2.5em;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.worship-hero-body h2{
+    font-family: 'Lora', serif;
+    /* font-size: 4em; */
+    font-weight: normal;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #326348;
+    margin: 0 0 16px;
+}
+.worship-hero-body p{
+    font-size: 1.3em;
+    line-height: 1.64;
+    margin: 0 0 1em;
+}
+.worship-hero-body .time{
+    font-size: 1.2em;
+    text-align: center;
+}
+.worship-hero-footer{
+    padding: 30px;
+    background-color: #326348;
+}
+.main-green-color{
+   color: #326348;
+   font-size: 12pt;
+   font-weight: bold;
+}
+.btn-color{
+    background-color: #326348 !important;
+}
+.worship-hero-footer span{
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 2.1em;
+    letter-spacing: .05em;
+    vertical-align: middle;
+}
+
+/* connect section styling */
+.connect-hero{
+    padding: 1rem 0;
+}
+.wide {
+    position: relative;
+    width: 100%;
+   
+    margin: 0 auto;
+}
+@media (max-width: 768px){
+.wide{
+    width: 100%;
+    min-width: 0;
+}
+}
+
+@media (max-width: 768px){
+    .main-green{
+        width: 100%;
+        min-width: 0;
+}
+}
+
+@media only screen and (max-width: 992px){
+nav .brand-logo {
+    left: 0 !important;
+    margin-left: 16.5rem !important;
+    font-size: 1.2rem;
+}
+}
+
+@media only screen and (max-width: 760px){
+    .page-title h1 {
+        font-family: 'Permanent Marker', cursive !important;
+        font-size: 2.4rem !important;
+        line-height: 10px !important;
+        font-weight: 400;
+        color: #f6e8a9 !important;
+        text-align: center !important;
+    }
+}
+@media only screen and (max-width: 992px){
+nav .brand-logo {
+    left: 0 !important;
+    margin-left: 35rem;
+    font-size: 1.2rem;
+    width: 60%;
+    height: auto;
+}
+}
+
+@media only screen and (max-width: 760px){
+    nav .brand-logo {
+        left: 0 !important;
+        margin-left: 35rem;
+        font-size: 1.2rem;
+        width: 60%;
+        height: auto;
+    }
+    }
+
+.side-nav li>a {
+    font-size: 1.5rem;
+    color: #65615c !important;
+    font-family: 'Lato', sans-serif !important;
+}
+.side-nav li>a:hover{
+    background-color: #326348;
+    color: #fff !important;
+}
+.material-icons {
+    font-size: 3rem !important;
+    color: #326348;
+}
+.section-bg.parallax {
+    background-attachment: fixed;
+}
+.section-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.tiles {
+    overflow: hidden;
+}
+
+.connect-container {
+    position: relative;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+h2.whites {
+    color: #ffffff;
+    text-align: center;
+    /* margin: 0 0 85px; */
+}
+.tile {
+    float: left;
+    width: 31%;
+    padding: 4.8em;
+    margin-right: 2%;
+    background-color: #fff;
+    text-align: center;
+}
+.connect-hero p, section ul, section ol {
+    font-size: 1.6em;
+    line-height: 1.64;
+    margin: 0 0 1em;
+}
+.tile h3 {
+    font-size: 2.8em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 0 .25em;
+}
+a.button.red {
+    background-color: #721601;
+}
+a.button {
+    position: relative;
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #326348;
+    color: #fff;
+    /* font-size: 13px; */
+    font-weight: normal;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .2s cubic-bezier(0.4, 0.0, 0.2, 1);
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+}
+a.button:after {
+    font-family: 'social-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e901";
+    margin-left: 8px;
+    vertical-align: -.1em;
+}
+
+.connect-hero .section-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #326348;
+    opacity: .85;
+}
+
+
+/* end connect section styling */
+/* sermons  */
+.sermons {
+    padding: 10em 0;
+}
+.sermons > .connect-container {
+    max-width: 420px;
+}
+.sermons-body {
+    padding: 6em;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    /* margin-right: 10rem; */
+    /* margin-left: 13rem; */
+}
+
+.sermons-body h2 {
+        font-family: 'Lora', serif;
+        font-size: 4em;
+        font-weight: normal;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #326348;
+        margin: 0 0 16px;
+}
+
+.sermons-body .section p, section ul, section ol {
+    font-size: 1.6em;
+    line-height: 1.64;
+    margin: 0 0 1em;
+}
+/* children ministry */
+.events {
+    padding: 10em 0;
+    background-color: #fff;
+    margin-bottom: 275px;
+}
+.events > .connect-container {
+    max-width: 600px;
+    z-index: 100;
+}
+.eventsHeader {
+    margin-bottom: 45px;
+    max-width: 90%;
+}
+.events-body p {
+    text-align: justify;
+}
+
+/* end sermons */
+.this-backround {
+    background-color: whitesmoke;
+    color: whitesmoke;
+    border-radius: 25px;
+    padding: 15px;
+    font-family: 'Nanum Myeongjo';font-size: 22px;
+}
+.slider .btn {
+    margin-top: 20px;
+}
+.this-btn{
+    background-color: whitesmoke !important;
+    color: #81c12d;
+    border-radius:50px;
+}
+/* .fa-check-circle{
+    margin:10px;
+} */
+.section-search input {
+    padding: 3px !important;
+    font-size: 18px !important;
+    width: 90% !important;
+    border: #f4f4f4 3px solid !important;
+}
+
+.autocomplete-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.social-section .fa-4x {
+    font-size: 2.5em !important;
+    margin: 5px !important;
+
+}
+
+.style-img img {
+    height: 10rem !important;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .style-img img {
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+    }
+}
+
+.section-search p {
+    font-size: 18px;
+}
+
+.tabs .indicator {
+    background-color: #81c12d;
+    /*your color*/
+}
+
+.section-services .card-title {
+    font-size: 18px;
+    margin-left: 3px;
+    color: #f4f4f4;
+}
+
+.main-black{
+    background: #2e2e2e !important;
+}
+.main-green{
+    background-color: rgba(255, 255, 255, 1) !important;
+    transition: .25s cubic-bezier(0.4, 0.0, 0.2, 1);
+    height: 6rem;
+}
+.main-green ul > li a{
+    color: #2d2d2d !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+.main-green ul > li a:hover{
+    background-color: #326348 !important;
+    color: #ffffff !important;
+}
+/* .site-footer .mini-footer{
+    background: #212224 !important;
+} */
+
+/* ministry page styling */
+.hero-banner{
+    padding: 4rem;
+}
+
+h4.element-header{
+    padding: 2px;
+    margin: 0;
+    color: #276278;
+    font-family: 'Lato', sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+}
+.hero-banner h4{
+    font-weight: 300;
+}
+.hero-banner .content-body{
+    line-height: 1.5 !important;
+    color: #65615c;
+}
+.hero-image-banner {
+    margin: 0 0 5px 12px;
+    padding-bottom: 56.25%;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-hero{
+    padding: 1rem;
+}
+.card-hero-img{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.mini-cols{
+   text-align: center;
+   background: #fff;
+   padding: 1rem;
+}
+.slider-container{
+    height: 20rem;
+    overflow: hidden;
+}
+
+.ministry{
+    position: relative;
+    height: 30rem !important;
+    height: 25rem !important;
+    padding: 120px 0px;
+    background-color: #326348 !important;
+    opacity: .85
+}
+.page-title {
+    height: auto;
+    position:absolute;
+}
+.page-title h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+    line-height: 10px;
+    font-weight: 400;
+    color:#f6e8a9;
+    text-align: center !important;
+}
+
+.ministry-o img{
+    width: 100%;
+    height: 70%;
+}
+.horizonta-line{
+    padding: 1rem;
+}
+
+.about-side{
+    background: #f7f7f6;
+    padding: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-size: .8rem;
+}
+.about-side:hover{
+    border-radius: 0.5rem;
+    box-shadow: 5px 10px 8px #888888;
+    transition: all 1s linear;
+}
+.about-side ul > li{
+    margin: 1.5rem;
+}
+.about-side ul > li a{
+    color: #A13238;
+}
+
+.active{
+
+    cursor:pointer;
+}
+
+.about-side:hover .fa-long-arrow-alt-right:after{
+    content:"\f30b";
+    color:green;
+    opacity:0.4;
+}
+
+h3.four-font{
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #A13238;
+    margin: 0 0 16px;
+}
+h3.four-font:hover{
+    color:#326348;
+}
+
+h4.four-pastor{
+    text-align: left;
+    color:#326348;
+    font-family: 'Lato', sans-serif;
+    font-size: 25pt;
+}
+
+.pastor-img img{
+    border-radius: .8rem;
+    overflow: hidden;
+    transition: all 1s linear;
+}    
+.pastor-img:hover{
+    opacity: .85;
+}
+h4.four-font{
+    text-align: left;
+    color:#326348;
+    font-family: 'Lato', sans-serif;
+    font-size: 19pt;
+}
+.about-paragraphs-1{
+    padding-bottom: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 13.5pt !important;
+    color: #65615c !important;
+}
+.about-paragraphs{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.3rem;
+    font-size: 12pt !important;
+    color: #65615c !important;
+}
+.img-containers{
+    transition: all 1s linear;
+}
+.pastor-img:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+.mini-p{
+    padding: .4rem;
+    color: #000000 !important;
+    font-family: 'Lato', sans-serif;
+    font-size: 18pt;
+    color: #326348 !important;
+}
+
+.paragraph-mini{ 
+    padding: 1rem;
+    font-size: 20pt;
+    color: #A13238 !important;
+}
+p.content-body{
+    font-family: 'Lato', sans-serif !important;
+    font-size: 12pt;
+    color: #65615c !important;
+}
+
+#search img{
+    height: 25rem !important;
+   width: 100%;
+}
+#search img:hover{
+    background-color: #276278;
+    opacity: .7;
+    cursor: pointer;
+    transition: all 1s linear;
+}
+.go-right{
+    margin-left: 2rem;
+}
+.sermons-paragraph{
+    font-family: 'Lato', sans-serif !important;
+    font-size: 12pt;
+}

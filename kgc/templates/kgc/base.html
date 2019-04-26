@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import Google Icon Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <!-- Import materialize.css -->
+  <link type="text/css" rel="stylesheet" href="{% static 'kgc/css/materialize.min.css' %}" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="{% static 'kgc/css/main.css' %}" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!-- Let browser know website is optimized for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenyan global church</title>
+</head>
+
+<body id="home" class="scrollspy">
+  <div class="navbar-fixed">
+    <nav class="navigation-menu main-green">
+        <div class="nav-wrapper">
+          <a href="/" class="brand-logo logo-color"><img src="{% static 'kgc/img/pnglogo.png' %}" alt="kenyan global church"></a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse mobile-style">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/">Home</a></li>
+            <li><a href="{% url 'about' %}">About us</a></li>
+            <li><a href="{% url 'ministries' %}">Ministries</a></li>
+            <li><a href="{% url 'board' %}">Our team</a></li>
+            <li><a href="{% url 'gallery' %}">Gallery</a></li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <ul class="side-nav" id="mobile-nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="about.html">About us</a></li>
+    <li><a href="ministries.html">Ministries</a></li>
+    <li><a href="programs.html">Our programs</a></li>
+    <li><a href="board.html">Our team</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+
+
+  {% block content %}{% endblock content %}
+
+ 
+  <!-- footer -->
+  <section class="section social-section white-text center main-black">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h4>Reach us on social media</h4>
+            <a href="https://web.facebook.com/kenyanglobalchurch" target="_blank" class="white-text">
+              <i class="fab fa-facebook fa-4x"></i>
+            </a>
+            <a href="https://web.facebook.com/kenyanglobalchurch" target="_blank" class="white-text">
+              <i class="fab fa-twitter fa-4x"></i>
+            </a>
+            <a href="https://web.facebook.com/kenyanglobalchurch" target="_blank" class="white-text">
+              <i class="fab fa-linkedin fa-4x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="flow-text small mini-footer" style="font-size:1rem; background-color: black;">
+        <h5>kenyan global church &copy; 2019. All right reserved.</h5>
+      </p>
+    </section>
+
+  <!-- Import jQuery before materialize.js -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="{% static 'kgc/js/materialize.min.js' %}"></script>
+  <script>
+    $(document).ready(function () {
+      $('.button-collapse').sideNav();
+
+      //init slider
+      $('.slider').slider({
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000
+      });
+      //init autocomplete
+      $('.autocomplete').autocomplete({
+        data: {
+          Arub: null,
+          'Cancun Mexico': null,
+          Hawaii: null,
+          Nairobi: null,
+          Florida: null,
+          Jamaic: null,
+          Europe: null,
+          California: null
+        }
+      });
+      //init scrollspy
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+
+</html>
