@@ -2,10 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    context = {
-        'posts': posts
-    }
-    return render(request, 'kgc/index.html', context)
+    return render(request, 'kgc/index.html', {'title': 'Kgc-home'})
 
 def about(request):
     return render(request, 'kgc/about.html', {'title': 'kgc-about'})
