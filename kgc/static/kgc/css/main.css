@@ -14,7 +14,7 @@ figcaption {
   }
 .logo-color img{
     width: 300px;
-    height: 62px;
+    height: 100% !important;
 }
 
 .church-profile{
@@ -36,6 +36,7 @@ figcaption {
 .brand-logo{
     padding-left: 16px !important;
     margin-left: 1rem;
+        height: 100%;
 }
 .this-font{
     font-size: 23px !important;
@@ -164,6 +165,7 @@ nav .brand-logo {
     left: 0 !important;
     margin-left: 16.5rem !important;
     font-size: 1.2rem;
+        height: 100% ;
 }
 }
 
@@ -184,6 +186,7 @@ nav .brand-logo {
     font-size: 1.2rem;
     width: 60%;
     height: auto;
+
 }
 }
 
