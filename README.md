@@ -1,11 +1,18 @@
-# django-church-app
+# django-church-app by group one members
 
-steps to setting up the web application 
-Step 1: Install an editor for example pycharm or VScode 
-Step 2: Fork and clone this repository to your local machine 
-Step 3: Open this project using your IDE 
-Step 4: Run the following commands 
-"pip3 install django" for Linux or Mac Os and "pip install django" for Windows
-"python manage.py migrate"
-"python manage.py runserver"
-Step 5: Open localhost:8000 on your browser
+steps to setting up the web application
+
+step 1: install an editor for example pycharm or VScode
+
+step 2: fork and clone this repository to your local machine
+
+step 3: open this project using your IDE 
+
+step 4: run the following commands
+
+    pip3 instal django
+    python manage.py migrate
+    python manage.py runserver
+step 5: open localhost:8000 on your browser
+
+
