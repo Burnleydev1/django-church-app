@@ -13,6 +13,5 @@ step 4: run the following commands
     pip3 instal django
     python manage.py migrate
     python manage.py runserver
+    
 step 5: open localhost:8000 on your browser
-
-
